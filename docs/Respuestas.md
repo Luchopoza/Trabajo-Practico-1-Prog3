@@ -1,0 +1,4 @@
+1. ¿Cuál es la diferencia entre una interfaz y una clase?
+Una interfaz define qué métodos se pueden usar, pero no tiene el código que los ejecuta. En cambio, una clase contiene la implementación de esos métodos, es decir, cómo funcionan. Además, no se puede crear un objeto directamente de una interfaz, pero sí de una clase.
+2. ¿Por qué conviene que el Controller dependa de IProductoService y no de ProductoService?
+Porque el Controller depende de lo que define la interfaz y no de una implementación específica. Así, si en el futuro se cambia la forma de obtener los datos, por ejemplo, de datos fijos a una base de datos SQL Server, no hace falta modificar el Controller. Esto permite tener un bajo acoplamiento y hace que el código sea más fácil de mantener.
