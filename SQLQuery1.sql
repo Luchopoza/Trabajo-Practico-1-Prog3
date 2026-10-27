@@ -1,0 +1,1 @@
+﻿SELECT Id, Nombre, Precio, Stock FROM Productos;
