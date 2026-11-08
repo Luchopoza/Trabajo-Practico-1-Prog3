@@ -20,7 +20,7 @@ git clone https://github.com/Luchopoza/Trabajo-Practico-1-Prog3.git
 cd Trabajo-Practico-1-Prog3/Trabajo-Practico-1-Prog3
 Cargar la connection string. La contraseña no está en el repo, se guarda con User Secrets:
 dotnet user-secrets init
-dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Data Source=SERVIDOR,PUERTO;Initial Catalog=Programacion3;User ID=USUARIO;Password=CONTRASEÑA;Encrypt=False;TrustServerCertificate=True;"
-(Reemplazar SERVIDOR,PUERTO, USUARIO y CONTRASEÑA por los datos del servidor.)
+dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Data Source=179.43.121.202,1435;Initial Catalog=Programacion3;User ID=app_user;Password=CONTRASEÑA;Encrypt=False;TrustServerCertificate=True;"
+(reemplazar LA_CONTRASEÑA por la nuestra):
 
 Ejecutar y abrir Swagger en https://localhost:7052/swagger:
